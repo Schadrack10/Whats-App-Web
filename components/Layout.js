@@ -23,6 +23,6 @@ const styles = {
      container :{
          display:'flex',
          height:'100vh',
-         padding:'20px'
+         padding:'0px'
      }
 }

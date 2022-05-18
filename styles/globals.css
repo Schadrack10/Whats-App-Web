@@ -43,5 +43,6 @@ a {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   transition: 1s ease-in-out;
-  background:#656565; 
+  background:#5a5a5a; 
+  cursor:pointer;
 }
