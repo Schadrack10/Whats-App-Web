@@ -28,12 +28,13 @@ const styles = {
   },
   header: {
     height: "10%",
- background:'rgba(3, 13, 23, 1)',
-    // borderLeft:'5px solid black'
+ background:'rgba(3, 13, 23, 0.5)',   
+    // borderLft:'5px solid black'
   },
   typeBar: {
     height: "10%",
-    background:'rgba(3, 13, 23,1)',
+    background:'rgba(3, 13, 23,0.6)',
+    padding:'10px'
   },
   messageBox: {
     height: "80%",

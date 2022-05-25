@@ -63,6 +63,7 @@ const styles = {
       padding:'5px 0'
    },
    messageCount:{
+      
       borderRadius:'100%',
       background:'white',
       width:'25px',
@@ -70,7 +71,6 @@ const styles = {
       display:'flex',
       alignItems:"center",
       justifyContent:'center',
-      
       
    }
 }
