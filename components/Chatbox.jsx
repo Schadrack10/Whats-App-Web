@@ -4,12 +4,14 @@ import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
-const Chatbox = () => {
+const Chatbox = ({title, func}) => {
   return (
     <Box sx={styles.container}>
       <Box sx={styles.header}></Box>
       <Box sx={styles.messageBox}></Box>
       <Box sx={styles.typeBar}></Box>
+      <Box sx={styles.typeBar}>{title}</Box>
+      <button onClick={func}></button>
     </Box>
   );
 };
