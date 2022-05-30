@@ -3,17 +3,136 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import UserContact from "./UserContact";
 
 const ContactBar = () => {
   return (
     <>
       {/* <Box sx={styles.header}>
-
        </Box> */}
       <Box sx={styles.container}>
         <Box sx={styles.header}></Box>
+
         <Box sx={styles.chatcardContainer}>
-          <Box sx={{ height: "3000px" }}></Box>
+          <UserContact
+            name="Katlego"
+            miniMessage="lets meet please"
+            source="av7.jpg"
+            time={"14:45"}
+            messageCount={4}
+          />
+          <UserContact
+            name="Nico"
+            miniMessage="we need a new song "
+            source="av2.jpeg"
+            time={"14:45"}
+            messageCount={1}
+          />
+          <UserContact
+            name="William"
+            miniMessage="hi, how are you today"
+            source="av3.jpeg"
+            time={"14:45"}
+            messageCount={1}
+          />
+          <UserContact
+            name="Dercio"
+            miniMessage="you will finish work today?"
+            source="av4.jpeg"
+            time={"14:45"}
+            messageCount={1}
+          />
+          <UserContact
+            name="Gomolemo"
+            miniMessage="i want a new gift !"
+            source="av5.jpeg"
+            time={"14:45"}
+            messageCount={1}
+          />
+          <UserContact
+            name="Bae"
+            miniMessage="Miss you alot"
+            source="av6.jpg"
+            time={"14:45"}
+            messageCount={1}
+          />
+          <UserContact
+            name="Schadrack"
+            miniMessage="the irony is juss too much"
+            source="shade-covid.jpg"
+            time={"14:45"}
+            messageCount={2}
+          />
+          <UserContact
+            name="Mr Tony"
+            miniMessage="Im pleased"
+            source="av4.jpeg"
+            time={"14:45"}
+            messageCount={1}
+          />
+          <UserContact
+            name="Henry"
+            miniMessage="hi, how are you today"
+            source="av1.jpg"
+            time={"14:45"}
+            messageCount={1}
+          />
+          <UserContact
+            name="Henry"
+            miniMessage="hi, how are you today"
+            source="av1.jpg"
+            time={"14:45"}
+            messageCount={1}
+          />
+          <UserContact
+            name="Henry"
+            miniMessage="hi, how are you today"
+            source="av1.jpg"
+            time={"14:45"}
+            messageCount={1}
+          />
+          <UserContact
+            name="Henry"
+            miniMessage="hi, how are you today"
+            source="av1.jpg"
+            time={"14:45"}
+            messageCount={1}
+          />
+          <UserContact
+            name="Henry"
+            miniMessage="hi, how are you today"
+            source="av1.jpg"
+            time={"14:45"}
+            messageCount={1}
+          />
+          <UserContact
+            name="Henry"
+            miniMessage="hi, how are you today"
+            source="av1.jpg"
+            time={"14:45"}
+            messageCount={1}
+          />
+          <UserContact
+            name="Henry"
+            miniMessage="hi, how are you today"
+            source="av1.jpg"
+            time={"14:45"}
+            messageCount={1}
+          />
+          <UserContact
+            name="Henry"
+            miniMessage="hi, how are you today"
+            source="av1.jpg"
+            time={"14:45"}
+            messageCount={1}
+          />
+          <UserContact
+            name="Henry"
+            miniMessage="hi, how are you today"
+            source="av1.jpg"
+            time={"14:45"}
+            messageCount={1}
+          />
         </Box>
       </Box>
     </>
@@ -36,7 +155,6 @@ const styles = {
   },
   header: {
     height: "10%",
-    background:'rgb(3, 33, 52)'
-
+    background:'rgba(3, 13, 23, 0.5)',
   },
 };
